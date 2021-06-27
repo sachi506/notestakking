@@ -1,0 +1,260 @@
+/* body{
+    background-color: grey;
+    opacity: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-transform:uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    color: red;
+    font-size: larger;
+}
+
+button{
+    border-radius: 5%;
+    height: 5vh;
+    width: 7vw;
+    background-color: green;
+    font-size: larger;
+} */
+/* li{
+    font-size: larger;
+} */
+/* .container{
+    height: auto; */
+
+    /* If height: auto; the element will automatically adjust its height to allow its content to be displayed correctly.
+
+If height is set to a numeric value (like pixels, (r)em, percentages) then if the content does not fit within the specified height, it will overflow. How the container will handle the overflowing content is defined by the overflow property.
+
+Note: The min-height and max-height properties override the height property. */
+    /* height: 800px;
+    margin: 0 auto;
+    width:350 px;
+    text-align: center;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 10px;
+    border: 10px solid #01a3a4;
+    color: black;
+}
+.container ul{
+    margin-top: 50px;
+    padding-left: 0;
+}
+.container ul li{
+    font-size: larger;
+    border: 2px solid #b5c5dd;
+    width:30%; */
+    /* opacity: 0; */
+    /* height: 40px;
+    margin: 5px auto;
+    text-align: left;
+    transition: opacity 0.5s ease-in-out;
+}
+#container ul li label{
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.container ul li #check1{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    -webkit-appearance: none;
+    border: 2px solid #b5c5dd;
+    position: relative;
+    outline: 0;
+}
+.container ul li #check1:checked:after{
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    color: black;
+    content: '\2714';
+    /*after the page load it will ticked the checkbox and set all those size*/
+/* } */
+/* .container ul li input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 3);
+} */
+/* .container .controls{
+    width: 60%;
+    margin: auto;
+}
+.container .controls input{
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius:10px;
+}
+.container .controls #check1:focus{
+    outline: 0;
+}
+.container .controls button{
+    width: 200px;
+    background: green;
+    border:none;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
+} */ 
+/* .container .controls button:focus{
+    outline: 0;
+} */
+/* .container .controls button:hover{
+    transform: scale(1.05)
+}
+.container .controls #add{
+    background-color: #2980b9;
+    border-radius: 20px;
+}
+.container .controls #remove{
+    background-color: #c0392b;
+    border-radius: 10px;
+    width: 27%;
+}
+.container .mycheck{
+    opacity: 1;
+    border-radius: 10px;
+}
+    .visual{
+        opacity: 1 !important;
+        border-radius: 10px;
+    } 
+    /* body{
+    background-color: #c1c1c1;
+}  */
+
+body{
+    background-color:#34495e;
+}
+ #container{
+    width: 350px;
+    height: auto; 
+    /* margin: 0 auto; */
+    text-align: center;
+    background: white;
+    height: 800px;
+    overflow-y: auto;
+     color: black;
+    border: 10px solid #01a3a4;
+    border-radius: 10px;    
+} 
+#container h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform:uppercase;
+}
+#container ul{
+    margin-top: 50px;
+    padding-left: 0;
+}
+#container ul li{
+    list-style: none;
+    border: 2px solid #b5c5dd;
+    width:80%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+}
+#container ul li label{
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+#container ul li #check{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    -webkit-appearance: none;
+    border: 2px solid #b5c5dd;
+    position: relative;
+    outline: 0;
+}
+#container ul li #check:checked:after{
+    content: '\2714';
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    color: black;
+}
+/* #container ul li input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 3);
+} */
+#container .controls{
+    width: 60%;
+    margin: auto;
+}
+#container .controls #input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius:10px;
+}
+#container .controls #input:focus{
+    outline: 0;
+}
+#container .controls button{
+    width: 200px;
+    background: white;
+    border:none;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
+}
+#container .controls button:focus{
+    outline: 0;
+}
+#container .controls button:hover{
+    transform: scale(1.05)
+}
+#container .controls #add{
+    background-color: #2980b9;
+    border-radius: 20px;
+}
+#container .controls #remove{
+    background-color: #c0392b;
+    border-radius: 10px;
+}
+#container .controls #removeall{
+    background-color: skyblue;
+    border-radius: 10px;
+    color: black;
+}
+#container .mycheck{
+    opacity: 1;
+    border-radius: 10px;
+}
+    .visual{
+        opacity: 1 !important;
+        border-radius: 10px;
+    }
+    .para{
+        color:black;
+        font-size: large;
+    }
